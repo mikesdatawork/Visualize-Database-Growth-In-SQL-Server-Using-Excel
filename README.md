@@ -17,8 +17,7 @@
 <p>How to visualize a database growth chart using Excel. Here's a straight up 'How To' write up to get you started. You'll love this. It's easy I promise. Notice the following graph. 2 lines RED and BLUE. RED represents the current compression ratio, and because compression hasn't been configured for the database they represent the same level as the usual backup size which is in BLUE. As you can see; they are parallel through the history of the database until it gets to July 2015 where I enabled compression.</p>
 
 ![Visualize Database Growth With Excel And Excel]( https://mikesdatawork.files.wordpress.com/2015/07/image002.jpg "Visualize Database Growth With SQL")
- 
-![]( https://mikesdatawork.files.wordpress.com/2015/07/image002.jpg "") 
+
 Below is some SQL logic from a former post about trending your database growth using backups (https://mikesdatawork.wordpress.com/2015/07/27/get-database-size-trending-on-all-databases/) This was inspired by the original author Erin Stellato at SQL Skills (http://www.sqlskills.com/blogs/erin/trending-database-growth-from-backups/). Check that out for more info :)
 By the way; you can enable backup compression with the following statement.
 
